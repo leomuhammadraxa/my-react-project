@@ -152,9 +152,13 @@ export default function HealthPlansPage() {
     }
 
     if (sortValue === "economical") {
-      result.sort((a, b) => getNumericPrice(a.price) - getNumericPrice(b.price));
+      result.sort(
+        (a, b) => getNumericPrice(a.price) - getNumericPrice(b.price),
+      );
     } else if (sortValue === "expensive") {
-      result.sort((a, b) => getNumericPrice(b.price) - getNumericPrice(a.price));
+      result.sort(
+        (a, b) => getNumericPrice(b.price) - getNumericPrice(a.price),
+      );
     }
 
     return result;
@@ -384,14 +388,18 @@ export default function HealthPlansPage() {
 
                       <div className="flex flex-wrap items-end gap-8">
                         <div>
-                          <p className="text-[10px] text-gray-400">Medical Cover</p>
+                          <p className="text-[10px] text-gray-400">
+                            Medical Cover
+                          </p>
                           <p className="text-[12px] font-semibold">
                             {plan.medicalCover}
                           </p>
                         </div>
 
                         <div>
-                          <p className="text-[10px] text-gray-400">Room Type ?</p>
+                          <p className="text-[10px] text-gray-400">
+                            Room Type ?
+                          </p>
                           <p className="text-[12px] font-semibold">
                             {plan.roomType}
                           </p>
@@ -431,10 +439,14 @@ export default function HealthPlansPage() {
                     </div>
 
                     <div className="ml-6 min-w-[110px] text-right">
-                      <p className={`text-[24px] font-bold leading-none ${plan.accent}`}>
+                      <p
+                        className={`text-[24px] font-bold leading-none ${plan.accent}`}
+                      >
                         <span className="text-[13px]">♦</span> {plan.price}
                       </p>
-                      <p className="mt-1 text-[11px] text-gray-500">for 1 year</p>
+                      <p className="mt-1 text-[11px] text-gray-500">
+                        for 1 year
+                      </p>
                     </div>
                   </div>
                 </div>
