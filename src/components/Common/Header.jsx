@@ -1,9 +1,10 @@
 import React from "react";
 import { ChevronDown } from "lucide-react";
 import headerData from "../data/headerData"
+import Logo from "/src/assets/Logo/logo-text.png"
 
 function Header() {
-  const { logo, navLinks, plansDropdown, phone } = headerData;
+  const { navLinks, plansDropdown, phone } = headerData;
 
   return (
     <header className="fixed z-[8] w-full bg-[#E9BC4D]">
@@ -12,7 +13,7 @@ function Header() {
         {/* LOGO */}
         <div className="flex items-center gap-3">
           <img
-            src={logo}
+            src={Logo}
             alt="Easy Insurance"
             className="h-10 w-auto object-contain"
           />

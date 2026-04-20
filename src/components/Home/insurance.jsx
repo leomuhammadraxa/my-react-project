@@ -4,32 +4,16 @@
 
 
 // import your logo images here
-// import logo1 from "../../assets/InsuranceImages/Askari-Insurance.png";
-// import logo2 from "../../assets/InsuranceImages/allianz.png";
-// import logo3 from "../../assets/InsuranceImages/jubileeLife.png";
-// import logo4 from "../../assets/InsuranceImages/jubilee.png";
-// import logo5 from "../../assets/InsuranceImages/allianz.png";
-// import logo6 from "../../assets/InsuranceImages/Askari-insurance.png";
-// import logo7 from "../../assets/InsuranceImages/jubileeLife.png";
-// import logo8 from "../../assets/InsuranceImages/allianz.png";
-// import logo9 from "../../assets/InsuranceImages/Askari-insurance.png";
-// import logo10 from "../../assets/InsuranceImages/Askari-insurance.png";
-// import logo11 from "../../assets/InsuranceImages/jubileeLife.png";
-// import logo12 from "../../assets/InsuranceImages/jubileeLife.png";
-// import logo13 from "../../assets/InsuranceImages/allianz.png";
-// import logo14 from "../../assets/InsuranceImages/allianz.png";
-// import logo15 from "../../assets/InsuranceImages/allianz.png";
-
 import logo1 from "../../assets/InsuranceImages/Askari-Insurance.png";
 import logo2 from "../../assets/InsuranceImages/allianz.png";
 import logo3 from "../../assets/InsuranceImages/jubileeLife.png";
 import logo4 from "../../assets/InsuranceImages/jubilee.png";
 import logo5 from "../../assets/InsuranceImages/allianz.png";
-import logo6 from "../../assets/InsuranceImages/Askari-Insurance.png";
+import logo6 from "../../assets/InsuranceImages/Askari-insurance.png";
 import logo7 from "../../assets/InsuranceImages/jubileeLife.png";
 import logo8 from "../../assets/InsuranceImages/allianz.png";
-import logo9 from "../../assets/InsuranceImages/Askari-Insurance.png";
-import logo10 from "../../assets/InsuranceImages/Askari-Insurance.png";
+import logo9 from "../../assets/InsuranceImages/Askari-insurance.png";
+import logo10 from "../../assets/InsuranceImages/Askari-insurance.png";
 import logo11 from "../../assets/InsuranceImages/jubileeLife.png";
 import logo12 from "../../assets/InsuranceImages/jubileeLife.png";
 import logo13 from "../../assets/InsuranceImages/allianz.png";
